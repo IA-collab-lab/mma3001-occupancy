@@ -1,0 +1,22 @@
+reports/results_val_h4.csv 
+        n  prevalence  precision  recall     f1  pr_auc     tn    fp    fn     tp                       model split  fit_s  predict_s  threshold
+0  50324       0.358      0.719   0.719  0.719     NaN  27234  5066  5070  12954                 persistence   val    NaN        NaN        NaN
+1  50324       0.358      0.635   0.631  0.633     NaN  25755  6545  6649  11375                   last_week   val    NaN        NaN        NaN
+2  50324       0.358      0.713   0.807  0.757   0.815  26432  5868  3474  14550                      logreg   val  0.104      0.002      0.344
+3  50324       0.358      0.703   0.835  0.764   0.822  25952  6348  2971  15053                         hgb   val  1.060      0.030      0.362
+4  12581       0.332      0.738   0.738  0.738     NaN   7311  1095  1094   3081   persistence_heldout_rooms   val    NaN        NaN        NaN
+5  12581       0.332      0.627   0.629  0.628     NaN   6845  1561  1551   2624     last_week_heldout_rooms   val    NaN        NaN        NaN
+6  12581       0.332      0.704   0.859  0.774   0.811   6902  1504   590   3585  hgb_seen_rooms_same_subset   val    NaN        NaN        NaN
+7  12581       0.332      0.698   0.859  0.770   0.811   6854  1552   588   3587           hgb_heldout_rooms   val    NaN        NaN      0.354 
+
+reports/results_test_h4.csv 
+        n  prevalence  precision  recall     f1  pr_auc     tn    fp    fn     tp                       model split  fit_s  predict_s  threshold
+0  49547       0.272      0.688   0.688  0.688     NaN  31882  4203  4202   9260                 persistence  test    NaN        NaN        NaN
+1  49547       0.272      0.569   0.559  0.564     NaN  30395  5690  5942   7520                   last_week  test    NaN        NaN        NaN
+2  49547       0.272      0.681   0.772  0.724   0.787  31228  4857  3071  10391                      logreg  test  0.107      0.002      0.344
+3  49547       0.272      0.666   0.805  0.729   0.801  30651  5434  2623  10839                         hgb  test  1.069      0.029      0.362
+4  11793       0.284      0.765   0.765  0.765     NaN   7656   788   788   2561   persistence_heldout_rooms  test    NaN        NaN        NaN
+5  11793       0.284      0.681   0.655  0.668     NaN   7419  1025  1157   2192     last_week_heldout_rooms  test    NaN        NaN        NaN
+6  11793       0.284      0.747   0.890  0.812   0.867   7432  1012   368   2981  hgb_seen_rooms_same_subset  test    NaN        NaN        NaN
+7  11793       0.284      0.741   0.890  0.809   0.864   7405  1039   369   2980           hgb_heldout_rooms  test    NaN        NaN      0.354 
+
