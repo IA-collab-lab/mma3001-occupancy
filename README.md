@@ -48,3 +48,6 @@ HTML documentation for every function is in `docs/` (open `docs/index.html`). It
 
 ## AI use
 Claude (Anthropic) was used heavily to write the code, tests and report drafts. See `ai_log.md` and the commit messages.
+
+## Depth sweep
+`python -m occupancy.depth_sweep` compares training and validation F1 at several tree depths (validation data only). Output: `reports/depth_sweep_h4.csv`.
