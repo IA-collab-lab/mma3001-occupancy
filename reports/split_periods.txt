@@ -1,0 +1,35 @@
+rooms in event log: 5
+share of grid with a valid state, by room:
+0f3f37f8-0335-41e0-ae87-a1d677dfc7d7    0.979
+227f1068-9e41-469f-bef0-275f27a0bdba    0.886
+3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8    0.277
+941f0352-bb69-47d0-a9c5-ac29eb4f7319    0.982
+cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b    0.882
+dtype: float64
+rooms with usable rows: 5
+room
+0f3f37f8-0335-41e0-ae87-a1d677dfc7d7    81043
+227f1068-9e41-469f-bef0-275f27a0bdba    74241
+3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8    22745
+941f0352-bb69-47d0-a9c5-ac29eb4f7319    81732
+cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b    73452
+dtype: int64
+held-out: [np.str_('3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8'), np.str_('cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b')]
+rows: 233310 50324 49547
+train: 2023-11-30 23:30:00+11:00 to 2025-08-03 16:15:00+10:00
+val:   2025-08-03 17:30:00+10:00 to 2025-12-12 19:30:00+11:00
+test:  2025-12-12 20:45:00+11:00 to 2026-04-22 22:00:00+10:00
+val rows by room:
+room
+0f3f37f8-0335-41e0-ae87-a1d677dfc7d7    12581
+227f1068-9e41-469f-bef0-275f27a0bdba    12581
+941f0352-bb69-47d0-a9c5-ac29eb4f7319    12581
+cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b    12581
+dtype: int64
+test rows by room:
+room
+0f3f37f8-0335-41e0-ae87-a1d677dfc7d7    12586
+227f1068-9e41-469f-bef0-275f27a0bdba    12582
+941f0352-bb69-47d0-a9c5-ac29eb4f7319    12586
+cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b    11793
+dtype: int64
