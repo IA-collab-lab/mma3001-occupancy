@@ -1,0 +1,8 @@
+train rows 10000 [[0.755 0.488]]
+train rows 50000 [[0.762 0.282]]
+train rows 100000 [[0.764 0.516]]
+train rows 200000 [[0.763 1.308]]
+horizon 1 {'persistence': 0.791, 'last_week': 0.633, 'logreg': 0.81, 'hgb': 0.813, 'persistence_heldout_rooms': 0.838, 'last_week_heldout_rooms': 0.628, 'hgb_seen_rooms_same_subset': 0.841, 'hgb_heldout_rooms': 0.835}
+horizon 4 {'persistence': 0.719, 'last_week': 0.633, 'logreg': 0.757, 'hgb': 0.764, 'persistence_heldout_rooms': 0.738, 'last_week_heldout_rooms': 0.628, 'hgb_seen_rooms_same_subset': 0.774, 'hgb_heldout_rooms': 0.77}
+horizon 16 {'persistence': 0.535, 'last_week': 0.633, 'logreg': 0.711, 'hgb': 0.723, 'persistence_heldout_rooms': 0.51, 'last_week_heldout_rooms': 0.628, 'hgb_seen_rooms_same_subset': 0.736, 'hgb_heldout_rooms': 0.724}
+horizon 96 {'persistence': 0.608, 'last_week': 0.634, 'logreg': 0.704, 'hgb': 0.717, 'persistence_heldout_rooms': 0.616, 'last_week_heldout_rooms': 0.629, 'hgb_seen_rooms_same_subset': 0.728, 'hgb_heldout_rooms': 0.732}
