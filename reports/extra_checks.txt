@@ -1,0 +1,7 @@
+A) whole CSV, all columns, default types: about 2 s and 1891 MB (scaled from 500000 rows)
+B) gradient boosting iterations actually fitted: 113 of a maximum 200
+C) test F1 by room for the baselines:
+   0f3f37f8 persistence 0.696 | last week 0.606
+   227f1068 persistence 0.526 | last week 0.316
+   941f0352 persistence 0.775 | last week 0.692
+   cca1ac3e persistence 0.765 | last week 0.668
