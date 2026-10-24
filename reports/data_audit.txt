@@ -1,0 +1,1 @@
+{'rows_in': 9091732, 'null_room': 0, 'bad_time': 0, 'bad_status': 0, 'negative_headcount': 0, 'headcount_mismatch': 0, 'rows_kept': 9091732, 'duplicates_removed': 9}
