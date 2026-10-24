@@ -1,0 +1,30 @@
+                        model split      n  ...  recall     f1  pr_auc
+0                 persistence   val  50324  ...   0.719  0.719     NaN
+1                   last_week   val  50324  ...   0.631  0.633     NaN
+2                      logreg   val  50324  ...   0.807  0.757   0.815
+3                         hgb   val  50324  ...   0.835  0.764   0.822
+4   persistence_heldout_rooms   val  12581  ...   0.738  0.738     NaN
+5     last_week_heldout_rooms   val  12581  ...   0.629  0.628     NaN
+6  hgb_seen_rooms_same_subset   val  12581  ...   0.859  0.774   0.811
+7           hgb_heldout_rooms   val  12581  ...   0.859  0.770   0.811
+
+[8 rows x 8 columns]
+         3203683 function calls (3135460 primitive calls) in 4.406 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      173    0.002    0.000    5.720    0.033 __init__.py:1(<module>)
+   1659/1    0.016    0.000    4.408    4.408 {built-in method builtins.exec}
+        1    0.000    0.000    4.408    4.408 <frozen runpy>:201(run_module)
+        1    0.000    0.000    4.406    4.406 <frozen runpy>:65(_run_code)
+        1    0.002    0.002    4.406    4.406 experiment.py:1(<module>)
+        1    0.002    0.002    2.754    2.754 experiment.py:17(run)
+      5/3    0.002    0.000    1.950    0.650 base.py:1381(wrapper)
+        2    0.000    0.000    1.832    0.916 models.py:26(fit_hgb)
+        2    0.066    0.033    1.829    0.915 gradient_boosting.py:393(fit)
+  1662/20    0.003    0.000    1.725    0.086 <frozen importlib._bootstrap>:1349(_find_and_load)
+  1617/17    0.003    0.000    1.725    0.101 <frozen importlib._bootstrap>:1304(_find_and_load_unlocked)
+  1567/17    0.002    0.000    1.724    0.101 <frozen importlib._bootstrap>:911(_load_unlocked)
+  1318/17    0.001    0.000    1.723    0.101 <frozen importlib._bootstrap_external>:989(exec_module)
+  3793/35    0.002    0.000    1.720    0.049 <frozen importlib._bootstrap>:480(_call_with_frames_removed)

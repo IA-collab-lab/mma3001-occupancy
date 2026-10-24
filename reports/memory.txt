@@ -1,0 +1,2 @@
+compact in-memory MB: 200.018126
+csv MB: 1605.044297 | parquet MB: 100.655337
