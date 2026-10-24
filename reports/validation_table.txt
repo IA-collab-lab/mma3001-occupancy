@@ -1,0 +1,11 @@
+                        model split      n  ...  recall     f1  pr_auc
+0                 persistence   val  50324  ...   0.719  0.719     NaN
+1                   last_week   val  50324  ...   0.631  0.633     NaN
+2                      logreg   val  50324  ...   0.807  0.757   0.815
+3                         hgb   val  50324  ...   0.835  0.764   0.822
+4   persistence_heldout_rooms   val  12581  ...   0.738  0.738     NaN
+5     last_week_heldout_rooms   val  12581  ...   0.629  0.628     NaN
+6  hgb_seen_rooms_same_subset   val  12581  ...   0.859  0.774   0.811
+7           hgb_heldout_rooms   val  12581  ...   0.859  0.770   0.811
+
+[8 rows x 8 columns]
